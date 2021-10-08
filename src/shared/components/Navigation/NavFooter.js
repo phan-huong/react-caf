@@ -7,7 +7,7 @@ import MainFooter from './MainFooter';
 const NavFooter = () => {
     return <MainFooter>
         <div>&copy;Oktober 2021 - CAF Team</div>
-        <Link to="https://chris-andfriends.de/">chris and friends GmbH</Link>
+        <div><a href="https://chris-andfriends.de/">chris and friends GmbH</a></div>
         <Link to="/">Datenschutz & Impressum</Link>
     </MainFooter>
 }
